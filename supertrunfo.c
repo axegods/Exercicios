@@ -13,11 +13,11 @@ int main(){
 	// Carta 01:
 
 	printf("Estado: ");
-	scanf("%c", &estado1);
+	scanf(" %c", &estado1);
 	printf("Codigo da carta: ");
-	scanf("%s", &codigo1);
+	scanf("%3s", codigo1);
 	printf("Nome da Cidade: ");
-	scanf("%s", &cidade1);
+	scanf("%29s", cidade1);
 	printf("Populacao: ");
 	scanf("%d", &populacao1);
 	printf("Area: ");
@@ -33,9 +33,9 @@ int main(){
 	printf("Estado: ");
 	scanf(" %c", &estado2);
 	printf("Codigo da carta: ");
-	scanf("%s", &codigo2);
+	scanf("%3s", codigo2);
 	printf("Nome da Cidade: ");
-	scanf("%s", &cidade2);
+	scanf("%29s", cidade2);
 	printf("Populacao: ");
 	scanf("%d", &populacao2);
 	printf("Area: ");
